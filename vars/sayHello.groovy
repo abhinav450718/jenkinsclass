@@ -1,3 +1,4 @@
-def (String Name) {
-  echo('running this on vars {$Name}')
+def call(String name) {
+    echo "Running this in vars by ${name}"
+    echo "Current build number is: ${env.BUILD_NUMBER}"
 }
